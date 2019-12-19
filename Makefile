@@ -1,5 +1,5 @@
 create-env:
-	virtualenv -p `which python3` env
+	virtualenv -p `which python` env
 
 generate-dependencies:
 	pip freeze -> requirements.txt
